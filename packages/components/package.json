@@ -1,6 +1,6 @@
 {
   "name": "fdd-ui",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "dist/fdd-ui.min.js",
   "type": "module",
@@ -11,6 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fdd-ui/utils": "workspace:^1.0.1"
+  },
+  "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.1",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "rollup": "^3.10.1",
