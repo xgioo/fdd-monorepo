@@ -1,0 +1,1 @@
+const _toBigCamel=e=>e?e.replace(/-(\w)/g,(e,p)=>p.toUpperCase()).replace(/\S/,e=>e.toUpperCase()):"";export{_toBigCamel};

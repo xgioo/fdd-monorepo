@@ -1,0 +1,19 @@
+{
+  "name": "fdd-ui",
+  "version": "1.0.3",
+  "description": "",
+  "main": "dist/fdd-ui.min.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^3.10.1",
+    "rollup-plugin-vue": "^5.0.0"
+  }
+}
